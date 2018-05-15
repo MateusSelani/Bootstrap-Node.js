@@ -1,0 +1,11 @@
+body {
+    margin: 0px 1px 5px 1px;
+    background-color: white;
+}
+h1 {
+    text-align: center;
+}
+#contentSite {
+    margin: 3%;
+    padding: 3%;
+}
