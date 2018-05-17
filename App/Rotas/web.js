@@ -14,4 +14,8 @@ module.exports = function(app){
         res.render('site/contato');
     });
 
+    app.get('/inscreva-se', function(req, res){
+        res.render('site/cadastro');
+    });
+
 };

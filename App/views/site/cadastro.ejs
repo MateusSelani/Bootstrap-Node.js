@@ -12,7 +12,7 @@
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <style>@import url(Css/Css.css);</style>
-    <title>Contato</title>
+    <title>Cadastre-se</title>
 </head>
 <body>
     <div class="jumbotron">
@@ -30,7 +30,7 @@
                     <li><a href="/contato">Contato</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="/inscreva-se">
+                    <li><a href="#" data-toggle="dropdown">
                         <span class="glyphicon glyphicon-user"></span> Inscrever-se</a></li>
                     <li><a href="#" data-toggle="dropdown">
                         <span class="glyphicon glyphicon-log-in"></span> Entrar</a></li>
@@ -42,11 +42,42 @@
     </div>
     <!-- Conteudo do Site -->
     <div id="contentSite">
-        <h2>Contato</h2>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.<br/>
-            Numquam, ex! Quis neque ullam earum illum! Aperiam veritatis<br/>
-            quae, quidem perferendis maiores commodi quas quam adipisci,<br/>
-            expedita obcaecati quia, assumenda sequi!</p>
+    <!-- Configuracoes p/ Conteudo -->
+        <br/>
+        <h1>Cadastre-se!</h1>
+        <!-- Cadastro -->
+        <div class="container">
+            <form class="form-horizontal" action="/action_page.php">
+              <div class="form-group">
+                <label class="control-label col-sm-2" for="email">E-mail:</label>
+                <div class="col-sm-10">
+                  <input type="email" class="form-control" id="email" 
+                    placeholder="Digite seu E-mail!" name="email">
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="control-label col-sm-2" for="pwd">Senha:</label>
+                <div class="col-sm-10">          
+                  <input type="password" class="form-control" id="pwd" 
+                    placeholder="Digite sua Senha!" name="pwd">
+                </div>
+              </div>
+              <div class="form-group">        
+                <div class="col-sm-offset-2 col-sm-10">
+                  <div class="checkbox">
+                    <label><input type="checkbox" name="remember"> Lembre-me!</label>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">        
+                <div class="col-sm-offset-2 col-sm-10">
+                  <button type="submit" class="btn btn-default">Enviar</button>
+                </div>
+              </div>
+            </form>
+        </div>
+        <!-- Fim Cadastro -->
+        
     </div>
 </body>
 </html>
