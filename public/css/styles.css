@@ -1,0 +1,15 @@
+body {
+    margin: 0px 1px 5px 1px;
+    background-color: red;
+}
+h1 {
+    text-align: center;
+}
+#contentSite {
+    margin: 0% 3% 3% 3%;
+    padding: 0% 3% 3% 3%;
+}
+.container{
+    width: 60%;
+    margin: 4% auto 0% auto;
+}

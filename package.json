@@ -1,0 +1,23 @@
+{
+  "name": "bootstrap-node",
+  "version": "1.0.0",
+  "description": "Paginação",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MateusSelani/Bootstrap-Node.js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MateusSelani/Bootstrap-Node.js/issues"
+  },
+  "homepage": "https://github.com/MateusSelani/Bootstrap-Node.js#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.3"
+  }
+}
