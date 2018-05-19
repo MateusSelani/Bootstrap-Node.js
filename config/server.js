@@ -5,10 +5,11 @@ const app = express();
 
     /* Caminho para views */
 app.set('view engine', 'ejs');
-app.set('views','./App/views');
+app.set('views','./app/views');
+app.use(express.static('public'));
 
     /* Importando Caminho para Rotas */
-const rotas = require('../App/Rotas/web');
+const rotas = require('../app/rotas/web');
 rotas(app);
 
     /* Servidor Porta 8000 */

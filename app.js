@@ -1,4 +1,4 @@
     /* Importando Servidor */
-const app = require('./Config/server');
+const app = require('./config/server');
     /* Executando Servidor */
 app();
